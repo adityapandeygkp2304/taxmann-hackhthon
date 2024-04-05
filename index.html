@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Quiz Generator</h1>
+        <div id="User Selection">
+            <label for="topic">User Type:</label>
+            <select id="topic">
+                <option value="math">Student </option>
+                <option value="science">Teacher</option>
+             
+            </select>
+        </div>
+        <br>
+        <div id="topic-selection">
+            <label for="topic">Select Topic:</label>
+            <select id="topic">
+                <option value="math">Math</option>
+                <option value="science">Science</option>
+                <option value="history">History</option>
+            </select>
+        </div>
+        <div id="difficulty-selection">
+            <label for="difficulty">Select Difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+        <button id="generate-quiz">Generate Quiz</button>
+        <div id="quiz"></div>
+        <div id="score-feedback"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
